@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E Commerce Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    <section class="sub3-header">
+        <div class="main">
+            <div class="navbar">
+    
+    
+                <div class="menu1">
+                    <ul>
+                        <li><a href="home.html">HOME</a></li>
+                        <li><a href="shop.html">SHOP</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+    
+                <div class="search1">
+                    <input class="srch" type="search" name="" placeholder="Type To text">
+                    <a href="#"> <button class="btn">Search</button></a>
+                </div>
+    
+            </div>
+</section>
+<div class="subu">
+
+<div class="swiper">
+
+    <div class="swiper-wrapper">
+      
+      <div class="swiper-slide"><img src="blue1.jpg"></div>
+      <div class="swiper-slide"><img src="blue2.jpg"></div>
+      <div class="swiper-slide"><img src="blue3..jpg"></div>
+      <div class="swiper-slide"><img src="blue4.jpg"></div> 
+      <div class="swiper-slide"><img src="blue5.jpg"></div>
+      ...
+    </div>
+    
+    <div class="swiper-pagination"></div>
+ 
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+ autoplay: {
+    delay: 1000,
+    disableOnInteraction: false,
+ },
+        loop: true,
+      
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+      
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      
+        
+      });
+</script>
+</body>
+</html>
